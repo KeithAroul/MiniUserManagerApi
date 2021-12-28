@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
+spring.jpa.show-sql: true
+logging:
+  level:
+    com.myproject.MiniUserManager: INFO
+    org.hibernate: INFO
+  file:
+    name: /logs/user-service.log
+
+security:
+  user:
+    name: keith
+    password: 1708
+
+server.port: 9000
+management.port: 9001
+management.security.enabled: false
