@@ -1,2 +1,5 @@
 # MiniUserManagerApi
- mini user manager using spring
+Mini user management restapi project using Spring-boot.
+
+### Author
+Keith AROUL - keith.aroul@epita.fr
